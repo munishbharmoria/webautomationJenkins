@@ -1,0 +1,20 @@
+Feature: Validate CVR SEnr page
+
+  Background:                       [90m# src/main/resources/features/skatCVRSEnrPage.feature:3[0m
+    [31mGiven [0m[31mskat user is on Home page[0m [90m# SkatHomePageStepDef.skat_user_is_on_home_page()[0m
+      [31morg.openqa.selenium.NoSuchFrameException: No frame element found by name or id letloen
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-MP34U9SM', ip: '9.206.205.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+	at com.ibm.webautomation.pageobjects.SkatLoginPage.inputUserName(SkatLoginPage.java:39)
+	at com.ibm.webautomation.stepdefinations.SkatHomePageStepDef.skat_user_is_on_home_page(SkatHomePageStepDef.java:18)
+	at ✽.skat user is on Home page(src/main/resources/features/skatCVRSEnrPage.feature:4)
+[0m
+
+  @Smoke2
+  Scenario: LP-01:Verify click on CVR/SEnr button [90m# src/main/resources/features/skatCVRSEnrPage.feature:7[0m
+    [36mAnd [0m[36mI click on CVR SEnr button[0m                [90m# SkatHomePageStepDef.click_on_CVR_SEnr_button()[0m
+    [36mAnd [0m[36mI input CVR SEnr value[0m                    [90m# SkatCVRSEnrPageStepDef.input_CVR_SEnr_value()[0m
+    [36mAnd [0m[36mI click on OK button on CVR SEnr page[0m     [90m# SkatCVRSEnrPageStepDef.click_on_OK_button_on_CVR_SEnr_page()[0m
+    [36mAnd [0m[36mIs CVR SEnr button visible[0m                [90m# SkatHomePageStepDef.is_CVR_SEnr_button_visible()[0m

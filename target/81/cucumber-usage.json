@@ -1,0 +1,236 @@
+[
+  {
+    "source": "^I see login page$",
+    "steps": [
+      {
+        "name": "I see login page",
+        "aggregatedDurations": {
+          "average": 0.4632779,
+          "median": 0.4632779
+        },
+        "durations": [
+          {
+            "duration": 0.4632779,
+            "location": "src/main/resources/features/gmailLoginPage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on next button$",
+    "steps": [
+      {
+        "name": "I click on next button",
+        "aggregatedDurations": {
+          "average": 0.5514351,
+          "median": 0.5514351
+        },
+        "durations": [
+          {
+            "duration": 0.4006107,
+            "location": "src/main/resources/features/gmailCredentialPage.feature:10"
+          },
+          {
+            "duration": 0.7022595,
+            "location": "src/main/resources/features/gmailLoginPage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see next button$",
+    "steps": [
+      {
+        "name": "I see next button",
+        "aggregatedDurations": {
+          "average": 0.215637,
+          "median": 0.215637
+        },
+        "durations": [
+          {
+            "duration": 0.215637,
+            "location": "src/main/resources/features/gmailLoginPage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Gmail login page is available$",
+    "steps": [
+      {
+        "name": "Gmail login page is available",
+        "aggregatedDurations": {
+          "average": 3.003104085,
+          "median": 2.8572611
+        },
+        "durations": [
+          {
+            "duration": 3.6433602,
+            "location": "src/main/resources/features/gmailCredentialPage.feature:5"
+          },
+          {
+            "duration": 3.3116082,
+            "location": "src/main/resources/features/gmailLoginPage.feature:4"
+          },
+          {
+            "duration": 2.8572611,
+            "location": "src/main/resources/features/gmailLoginPage.feature:4"
+          },
+          {
+            "duration": 3.0917707,
+            "location": "src/main/resources/features/gmailLoginPage.feature:4"
+          },
+          {
+            "duration": 2.8084082,
+            "location": "src/main/resources/features/gmailLoginPage.feature:4"
+          },
+          {
+            "duration": 2.7264755,
+            "location": "src/main/resources/features/gmailLoginPage.feature:4"
+          },
+          {
+            "duration": 2.5828447,
+            "location": "src/main/resources/features/gmailLoginPage.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I am on credential page$",
+    "steps": [
+      {
+        "name": "I am on credential page",
+        "aggregatedDurations": {
+          "average": 0.94419045,
+          "median": 0.94419045
+        },
+        "durations": [
+          {
+            "duration": 1.0343125,
+            "location": "src/main/resources/features/gmailCredentialPage.feature:11"
+          },
+          {
+            "duration": 0.8540684,
+            "location": "src/main/resources/features/gmailLoginPage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I input user name (.+)$",
+    "steps": [
+      {
+        "name": "I input user name testuse08031983",
+        "aggregatedDurations": {
+          "average": 0.37692135,
+          "median": 0.37692135
+        },
+        "durations": [
+          {
+            "duration": 0.3313664,
+            "location": "src/main/resources/features/gmailCredentialPage.feature:9"
+          },
+          {
+            "duration": 0.4224763,
+            "location": "src/main/resources/features/gmailLoginPage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see forget email link$",
+    "steps": [
+      {
+        "name": "I see forget email link",
+        "aggregatedDurations": {
+          "average": 0.2926832,
+          "median": 0.2926832
+        },
+        "durations": [
+          {
+            "duration": 0.2926832,
+            "location": "src/main/resources/features/gmailLoginPage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see user name input box$",
+    "steps": [
+      {
+        "name": "I see user name input box",
+        "aggregatedDurations": {
+          "average": 0.1267952,
+          "median": 0.1267952
+        },
+        "durations": [
+          {
+            "duration": 0.1267952,
+            "location": "src/main/resources/features/gmailLoginPage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I click on next button to login$",
+    "steps": [
+      {
+        "name": "I click on next button to login",
+        "aggregatedDurations": {
+          "average": 15.3655344,
+          "median": 15.3655344
+        },
+        "durations": [
+          {
+            "duration": 15.3655344,
+            "location": "src/main/resources/features/gmailCredentialPage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I input password (.+)$",
+    "steps": [
+      {
+        "name": "I input password welcome2ibm",
+        "aggregatedDurations": {
+          "average": 87.7151055,
+          "median": 87.7151055
+        },
+        "durations": [
+          {
+            "duration": 87.7151055,
+            "location": "src/main/resources/features/gmailCredentialPage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^I see create account link$",
+    "steps": [
+      {
+        "name": "I see create account link",
+        "aggregatedDurations": {
+          "average": 0.1091279,
+          "median": 0.1091279
+        },
+        "durations": [
+          {
+            "duration": 0.1091279,
+            "location": "src/main/resources/features/gmailLoginPage.feature:20"
+          }
+        ]
+      }
+    ]
+  }
+]

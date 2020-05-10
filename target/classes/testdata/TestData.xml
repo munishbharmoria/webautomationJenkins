@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<webautomationdata>
+
+	<testdata>
+		<testdataref>skatAppUrl</testdataref>
+		<data>
+			<url>https://dev.ei-admin.skat.dk/login/login/index.jsp?initLogin=initLogin</url>
+		</data>
+	</testdata>
+
+	<testdata>
+		<testdataref>skatLoginCredentials</testdataref>
+		<data>
+			<username>MUNISH</username>
+		</data>
+		<data>
+			<password>Welcome4@ibm</password>
+		</data>
+	</testdata>
+	
+	<testdata>
+		<testdataref>CVRSEnrInput</testdataref>
+		<data>
+			<cvrsenr>37172715</cvrsenr>
+		</data>
+		
+	</testdata>
+	
+	
+	<testdata>
+		<testdataref>gmailappurl</testdataref>
+		<data>
+			<url>https://www.gmail.com/</url>
+		</data>
+	</testdata>
+	
+	<testdata>
+		<testdataref>login</testdataref>
+		<data>
+			<username>testuse08031983</username>
+		</data>
+		<data>
+			<password>welcome2ibm</password>
+		</data>
+	</testdata>
+	
+	<testdata>
+		<testdataref>composeemail</testdataref>
+		<data>
+			<sendtoemail>munishbharmoria@gmail.com</sendtoemail>
+		</data>
+		<data>
+			<emailsubject>Subject: First test automation</emailsubject>
+		</data>
+		<data>
+			<emailbody>Body: First test automation</emailbody>
+		</data>
+	</testdata>
+	
+	<testdata>
+		<testdataref>regressiondata</testdataref>
+		<data>
+			<testcases>111,222,333,444,555</testcases>
+		</data>
+		
+	</testdata>
+	
+	<testdata>
+		<testdataref>sanitydata</testdataref>
+		<data>
+			<testcases>666,777,888,999</testcases>
+		</data>
+		
+	</testdata>
+	
+	
+
+</webautomationdata>

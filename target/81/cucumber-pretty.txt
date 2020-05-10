@@ -1,0 +1,77 @@
+@credentialPage
+Feature: Validate gmail credentials page
+
+  @GmailSmoke
+  Scenario Outline: CP-01:Verify user abple to input user name & password and login [90m# src/main/resources/features/gmailCredentialPage.feature:8[0m
+    [36mWhen I input user name <username>[0m
+    [36mThen I click on next button[0m
+    [36mAnd I am on credential page[0m
+    [36mThen I input password <password>[0m
+    [36mAnd I click on next button to login[0m
+
+    Examples: 
+
+  Background:                           [90m# src/main/resources/features/gmailCredentialPage.feature:4[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @credentialPage @GmailSmoke
+  Scenario Outline: CP-01:Verify user abple to input user name & password and login [90m# src/main/resources/features/gmailCredentialPage.feature:16[0m
+    [32mWhen [0m[32mI input user name [0m[32m[1mtestuse08031983[0m                                          [90m# LoginPageStepDef.i_input_user_name(String)[0m
+    [32mThen [0m[32mI click on next button[0m                                                     [90m# LoginPageStepDef.i_click_on_next_button()[0m
+    [32mAnd [0m[32mI am on credential page[0m                                                     [90m# CredentialPageStepDef.i_am_on_credential_page()[0m
+    [32mThen [0m[32mI input password [0m[32m[1mwelcome2ibm[0m                                               [90m# CredentialPageStepDef.i_input_password(String)[0m
+    [32mAnd [0m[32mI click on next button to login[0m                                             [90m# CredentialPageStepDef.click_on_next_button_to_login()[0m
+
+Feature: Validate gmail login page
+
+  Background:                           [90m# src/main/resources/features/gmailLoginPage.feature:3[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @GmailSmoke
+  Scenario: LP-01:Verify Login page is available [90m# src/main/resources/features/gmailLoginPage.feature:7[0m
+    [32mAnd [0m[32mI see login page[0m                         [90m# LoginPageStepDef.i_see_login_page()[0m
+
+  Background:                           [90m# src/main/resources/features/gmailLoginPage.feature:3[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @GmailSmoke
+  Scenario: LP-02:Verify user name input box is available [90m# src/main/resources/features/gmailLoginPage.feature:11[0m
+    [32mAnd [0m[32mI see user name input box[0m                         [90m# LoginPageStepDef.i_see_user_name_input_box()[0m
+
+  Background:                           [90m# src/main/resources/features/gmailLoginPage.feature:3[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @GmailSmoke
+  Scenario: LP-03:Verify forget email link is available [90m# src/main/resources/features/gmailLoginPage.feature:15[0m
+    [32mAnd [0m[32mI see forget email link[0m                         [90m# LoginPageStepDef.i_see_forget_email_link()[0m
+
+  Background:                           [90m# src/main/resources/features/gmailLoginPage.feature:3[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @GmailSmoke
+  Scenario: LP-04:Verify create account link is available [90m# src/main/resources/features/gmailLoginPage.feature:19[0m
+    [32mAnd [0m[32mI see create account link[0m                         [90m# LoginPageStepDef.i_see_create_account_link()[0m
+
+  Background:                           [90m# src/main/resources/features/gmailLoginPage.feature:3[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @GmailSmoke
+  Scenario: LP-05:Verify next button is available [90m# src/main/resources/features/gmailLoginPage.feature:23[0m
+    [32mAnd [0m[32mI see next button[0m                         [90m# LoginPageStepDef.i_see_next_button()[0m
+
+  @GmailSmoke
+  Scenario Outline: :LP-06:Verify user is able to input user name [90m# src/main/resources/features/gmailLoginPage.feature:27[0m
+    [36mWhen I input user name <username>[0m
+    [36mThen I click on next button[0m
+    [36mAnd I am on credential page[0m
+
+    Examples: 
+
+  Background:                           [90m# src/main/resources/features/gmailLoginPage.feature:3[0m
+    [32mGiven [0m[32mGmail login page is available[0m [90m# LoginPageStepDef.gmail_login_page_is_available()[0m
+
+  @GmailSmoke
+  Scenario Outline: :LP-06:Verify user is able to input user name [90m# src/main/resources/features/gmailLoginPage.feature:33[0m
+    [32mWhen [0m[32mI input user name [0m[32m[1mtestuse08031983[0m                        [90m# LoginPageStepDef.i_input_user_name(String)[0m
+    [32mThen [0m[32mI click on next button[0m                                   [90m# LoginPageStepDef.i_click_on_next_button()[0m
+    [32mAnd [0m[32mI am on credential page[0m                                   [90m# CredentialPageStepDef.i_am_on_credential_page()[0m

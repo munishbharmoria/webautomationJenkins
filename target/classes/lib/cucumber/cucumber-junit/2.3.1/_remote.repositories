@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 08 00:07:35 IST 2019
+cucumber-junit-2.3.1.jar>central=
+cucumber-junit-2.3.1-sources.jar>central=
+cucumber-junit-2.3.1.pom>central=

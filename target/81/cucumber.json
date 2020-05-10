@@ -1,0 +1,616 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3643360200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8750145600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "CP-01:Verify user abple to input user name \u0026 password and login",
+        "description": "",
+        "id": "validate-gmail-credentials-page;cp-01:verify-user-abple-to-input-user-name-\u0026-password-and-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 294289325300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 331366400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I input user name testuse08031983",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuse08031983",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageStepDef.i_input_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 400610700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on next button",
+            "match": {
+              "location": "LoginPageStepDef.i_click_on_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1034312500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am on credential page",
+            "match": {
+              "location": "CredentialPageStepDef.i_am_on_credential_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87715105500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I input password welcome2ibm",
+            "match": {
+              "arguments": [
+                {
+                  "val": "welcome2ibm",
+                  "offset": 17
+                }
+              ],
+              "location": "CredentialPageStepDef.i_input_password(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15365534400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on next button to login",
+            "match": {
+              "location": "CredentialPageStepDef.click_on_next_button_to_login()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@credentialPage"
+          },
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate gmail credentials page",
+    "description": "",
+    "id": "validate-gmail-credentials-page",
+    "keyword": "Feature",
+    "uri": "src/main/resources/features/gmailCredentialPage.feature",
+    "tags": [
+      {
+        "name": "@credentialPage",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3311608200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6147763800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "LP-01:Verify Login page is available",
+        "description": "",
+        "id": "validate-gmail-login-page;lp-01:verify-login-page-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 13144721500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 463277900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I see login page",
+            "match": {
+              "location": "LoginPageStepDef.i_see_login_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2857261100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6281182600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "LP-02:Verify user name input box is available",
+        "description": "",
+        "id": "validate-gmail-login-page;lp-02:verify-user-name-input-box-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 17035761100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 126795200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I see user name input box",
+            "match": {
+              "location": "LoginPageStepDef.i_see_user_name_input_box()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3091770700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6113174500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "LP-03:Verify forget email link is available",
+        "description": "",
+        "id": "validate-gmail-login-page;lp-03:verify-forget-email-link-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 7379637700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 292683200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I see forget email link",
+            "match": {
+              "location": "LoginPageStepDef.i_see_forget_email_link()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2808408200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6295385600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "LP-04:Verify create account link is available",
+        "description": "",
+        "id": "validate-gmail-login-page;lp-04:verify-create-account-link-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 739570500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 109127900,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "I see create account link",
+            "match": {
+              "location": "LoginPageStepDef.i_see_create_account_link()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2726475500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6141887300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "LP-05:Verify next button is available",
+        "description": "",
+        "id": "validate-gmail-login-page;lp-05:verify-next-button-is-available",
+        "after": [
+          {
+            "result": {
+              "duration": 727362200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 215637000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I see next button",
+            "match": {
+              "location": "LoginPageStepDef.i_see_next_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2582844700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Gmail login page is available",
+            "match": {
+              "location": "LoginPageStepDef.gmail_login_page_is_available()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6436588600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.initializer(Scenario)"
+            }
+          }
+        ],
+        "line": 33,
+        "name": ":LP-06:Verify user is able to input user name",
+        "description": "",
+        "id": "validate-gmail-login-page;:lp-06:verify-user-is-able-to-input-user-name;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 697875800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.teardown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 422476300,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I input user name testuse08031983",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testuse08031983",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginPageStepDef.i_input_user_name(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 702259500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I click on next button",
+            "match": {
+              "location": "LoginPageStepDef.i_click_on_next_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 854068400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I am on credential page",
+            "match": {
+              "location": "CredentialPageStepDef.i_am_on_credential_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GmailSmoke"
+          }
+        ]
+      }
+    ],
+    "name": "Validate gmail login page",
+    "description": "",
+    "id": "validate-gmail-login-page",
+    "keyword": "Feature",
+    "uri": "src/main/resources/features/gmailLoginPage.feature",
+    "tags": []
+  }
+]

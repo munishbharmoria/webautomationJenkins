@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="7" time="509.45163">
+<testcase classname="Validate gmail credentials page" name="CP-01:Verify user abple to input user name &amp; password and login" time="411.600974">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+When I input user name testuse08031983......................................passed
+Then I click on next button.................................................passed
+And I am on credential page.................................................passed
+Then I input password welcome2ibm...........................................passed
+And I click on next button to login.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate gmail login page" name="LP-01:Verify Login page is available" time="23.155684">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+And I see login page........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate gmail login page" name="LP-02:Verify user name input box is available" time="26.308547">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+And I see user name input box...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate gmail login page" name="LP-03:Verify forget email link is available" time="16.886173">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+And I see forget email link.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate gmail login page" name="LP-04:Verify create account link is available" time="9.960851">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+And I see create account link...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate gmail login page" name="LP-05:Verify next button is available" time="9.820566">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+And I see next button.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate gmail login page" name=":LP-06:Verify user is able to input user name" time="11.718835">
+<system-out><![CDATA[Given Gmail login page is available.........................................passed
+When I input user name testuse08031983......................................passed
+Then I click on next button.................................................passed
+And I am on credential page.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

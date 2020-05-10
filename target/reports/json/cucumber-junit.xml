@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="662.728293">
+<testcase classname="Validate CVR SEnr page" name="LP-01:Verify click on CVR/SEnr button" time="662.728293">
+<failure message="org.openqa.selenium.NoSuchFrameException: No frame element found by name or id letloen&#10;Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'&#10;System info: host: 'LAPTOP-MP34U9SM', ip: '9.206.205.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)&#13;&#10;&#9;at com.ibm.webautomation.pageobjects.SkatLoginPage.inputUserName(SkatLoginPage.java:39)&#13;&#10;&#9;at com.ibm.webautomation.stepdefinations.SkatHomePageStepDef.skat_user_is_on_home_page(SkatHomePageStepDef.java:18)&#13;&#10;&#9;at ✽.skat user is on Home page(src/main/resources/features/skatCVRSEnrPage.feature:4)&#13;&#10;"><![CDATA[Given skat user is on Home page.............................................failed
+And I click on CVR SEnr button..............................................skipped
+And I input CVR SEnr value..................................................skipped
+And I click on OK button on CVR SEnr page...................................skipped
+And Is CVR SEnr button visible..............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchFrameException: No frame element found by name or id letloen
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-MP34U9SM', ip: '9.206.205.38', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.frame(RemoteWebDriver.java:881)
+	at com.ibm.webautomation.pageobjects.SkatLoginPage.inputUserName(SkatLoginPage.java:39)
+	at com.ibm.webautomation.stepdefinations.SkatHomePageStepDef.skat_user_is_on_home_page(SkatHomePageStepDef.java:18)
+	at ✽.skat user is on Home page(src/main/resources/features/skatCVRSEnrPage.feature:4)
+]]></failure>
+</testcase>
+</testsuite>
